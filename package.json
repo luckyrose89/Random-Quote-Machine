@@ -1,0 +1,19 @@
+{
+  "name": "random-quote-machine",
+  "version": "1.0.0",
+  "description": "React based quote generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyrose89/Random-Quote-Machine.git"
+  },
+  "author": "Divya Mathur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luckyrose89/Random-Quote-Machine/issues"
+  },
+  "homepage": "https://github.com/luckyrose89/Random-Quote-Machine#readme"
+}

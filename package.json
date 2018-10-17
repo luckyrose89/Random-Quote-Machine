@@ -4,7 +4,10 @@
   "description": "React based quote generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint **/*.{js,jsx} --quiet"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,16 @@
   "bugs": {
     "url": "https://github.com/luckyrose89/Random-Quote-Machine/issues"
   },
-  "homepage": "https://github.com/luckyrose89/Random-Quote-Machine#readme"
+  "homepage": "https://github.com/luckyrose89/Random-Quote-Machine#readme",
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "parcel-bundler": "^1.10.3",
+    "prettier": "^1.14.3"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
 }

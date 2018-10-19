@@ -67,4 +67,10 @@ header h1 {
 
 footer {
   padding: 15px;
+  bottom: 0;
+}
+
+#git-link {
+  text-decoration: underline;
+  color: #ffcc00;
 }

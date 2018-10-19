@@ -12,7 +12,15 @@ class App extends React.Component {
           <h1>Random Quote Machine</h1>
         </header>
         <QuoteBox />
-        <footer>Made with &#10084; by Divya Mathur</footer>
+        <footer>
+          <p>
+            Made with &#10084; by
+            <a id="git-link" href="https://github.com/luckyrose89">
+              {" "}
+              Divya Mathur
+            </a>
+          </p>
+        </footer>
       </div>
     );
   }

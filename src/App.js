@@ -1,24 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import QuoteBox from "./QuoteBox";
+import logo from "./the-simpsons-logo.png";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.handleQuoteChange = this.handleQuoteChange.bind(this);
-  }
-  handleQuoteChange() {
-    window.location.reload();
-  }
   render() {
     return (
-      <div>
-        <h1>Random Quote Machine</h1>
+      <div id="wrapper">
+        <img alt="logo" src={logo} height="200px" width="400px" />
+        <header>
+          <h1>Random Quote Machine</h1>
+        </header>
         <QuoteBox />
-        <div>
-          <button onClick={this.handleQuoteChange}>New</button>
-          <a href="twitter.com/intent/tweet">Tweet</a>
-        </div>
+        <footer>Made with &#10084; by Divya Mathur</footer>
       </div>
     );
   }

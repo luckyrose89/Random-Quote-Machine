@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "eslint **/*.{js,jsx} --quiet"
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,11 @@
   },
   "homepage": "https://github.com/luckyrose89/Random-Quote-Machine#readme",
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "eslint": "^5.7.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-import": "^2.14.0",
